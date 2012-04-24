@@ -7,8 +7,23 @@ with open('data.yml') as data:
 
 #print tweets
 print Template("""
-here are some tweets:
+<html><head><title>My Website is so Old</title>
+
+<body>
+
+<h1>My Website is so Old</h1>
+<h2>An Unillustrated Mockularity</h2>
+
+<div id="list_o_tweets">
 % for tweet in tweets:
-- ${tweet['text']}
+  <div class="box">
+    <div class="quote">
+      ${tweet['text']} 
+   </div>
+  </div>
 % endfor
+</div>
+
+</body>
+</html>
 """).render(tweets=tweets)
