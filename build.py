@@ -7,21 +7,28 @@ with open('data.yml') as data:
 
 #print tweets
 print Template("""
-<html><head><title>My Website is so Old</title>
+<html><head><title>#mywebsiteissoold</title>
 <style type="text/css">
-body, li, a, div {
-  font-family: Helvetica, sans-serif;
+div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, p, blockquote, table, th, td, embed, object {
+padding: 0;
+margin: 0; 
 }
+
 body {
-margin-left: auto; margin-right: auto;
-width:90%;
+padding: 9px;
+margin: 21px;
+}
+
+body, li, a, div {
+  font-family: HelveticaNeue, Helvetica, sans-serif;
 }
 
 li {
   margin-top: 5px;
-  margin-bottom: 30px;
-  background-color: #dddddd;
-  padding: 8px;
+  margin-bottom: 31px;
+  background-color: #ffffff;
+  padding: 9px;
+  border: 9px #dddddd solid;
 }
 
 a{
@@ -29,37 +36,33 @@ text-decoration: none;
 color: black;
 }
 
-div.quote {
-background-color: white;
-padding: 8px;
-
-}
-
 ol {
+margin-top:31px;
 list-style-type: none;
+list-style-position: outside;
 }
 
 h1, h2 {
 display: block;
-text-align: center;
+}
+
+div#attribution {
+font-size: 0.75em;
 }
 
 </style>
 </head>
 
 <body>
-<h1>My Website is so Old</h1>
-<h2>An Unillustrated Mockularity</h2>
+<h1>#mywebsiteissoold</h1><h2>An Unillustrated Mockularity</h2>
 
 <ol id="list_o_tweets">
 % for tweet in tweets:
-  <li>
-    <div class="quote"><a href="${tweet['url']}">${tweet['text']}</a></div>
-    
-  </li>
+  <li><a href="${tweet['url']}">${tweet['text']}</a></li>
 % endfor
 </ol>
 
+<div id="attribution">Created by <a href="http://danramteke.com">Dan Ramteke</a>, &copy;2012</div>
 </body>
 </html>
 """).render(tweets=tweets)
