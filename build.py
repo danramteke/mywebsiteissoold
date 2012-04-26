@@ -25,15 +25,14 @@ li {
 }
 
 a{
-display:block;
-font-size: smaller;
-text-align:right;
+text-decoration: none;
+color: black;
 }
 
 div.quote {
 background-color: white;
 padding: 8px;
-margin-bottom:8px;
+
 }
 
 ol {
@@ -55,8 +54,8 @@ text-align: center;
 <ol id="list_o_tweets">
 % for tweet in tweets:
   <li>
-    <div class="quote">${tweet['text']}</div>
-    <a href="${tweet['url']}">Original</a>
+    <div class="quote"><a href="${tweet['url']}">${tweet['text']}</a></div>
+    
   </li>
 % endfor
 </ol>
