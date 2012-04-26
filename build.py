@@ -63,7 +63,7 @@ font-size: 0.75em;
 % endfor
 </ol>
 
-<div id="attribution">Created by <a href="http://danramteke.com">Dan Ramteke</a>, &copy;2012</div>
+<div id="attribution">Created by <a href="http://danramteke.com">Dan Ramteke</a>, &copy;2012. Enjoy responsibly.</div>
 </body>
 </html>
 """).render(tweets=tweets)
