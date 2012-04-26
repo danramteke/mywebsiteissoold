@@ -1,9 +1,9 @@
 tweets:
-  - text: "#mywebsiteissoold you paid with PayPal."
-    url: http://www.twitter.com/danramteke/status/31249544020754432
-
   - text: "#mywebsiteissoold that it has a flash intro."
     url: http://www.twitter.com/danramteke/status/31249085021294594
+
+  - text: "#mywebsiteissoold you paid with PayPal."
+    url: http://www.twitter.com/danramteke/status/31249544020754432
 
   - text: "#mywebsiteissoold it's best viewed with Internet Explorer."
     url: http://www.twitter.com/danramteke/status/31249936993484800
