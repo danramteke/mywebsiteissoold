@@ -1,4 +1,16 @@
 tweets:
+  - text: "#mywebsiteissoold you paid with PayPal."
+    url: http://www.twitter.com/danramteke/status/31249544020754432
+
+  - text: "#mywebsiteissoold that it has a flash intro."
+    url: http://www.twitter.com/danramteke/status/31249085021294594
+
+  - text: "#mywebsiteissoold it's best viewed with Internet Explorer."
+    url: http://www.twitter.com/danramteke/status/31249936993484800
+
+  - text: "#mywebsiteissoold that you retweeted the link."
+    url: http://www.twitter.com/danramteke/status/31248969384329216
+
   - text: "#mywebsiteissoold that it links to my Etsy page."
     url: http://www.twitter.com/danramteke/status/31253368563302400
 
@@ -20,20 +32,8 @@ tweets:
   - text: "#mywebsiteissoold the Libyan gov't took it down cause it transgressed Sharia."
     url: http://www.twitter.com/danramteke/status/31250225871986688
 
-  - text: "#mywebsiteissoold it's best viewed with Internet Explorer."
-    url: http://www.twitter.com/danramteke/status/31249936993484800
-
   - text: "#mywebsiteissoold shipping and handling was free."
     url: http://www.twitter.com/danramteke/status/31249828184858624
-
-  - text: "#mywebsiteissoold you paid with PayPal."
-    url: http://www.twitter.com/danramteke/status/31249544020754432
-
-  - text: "#mywebsiteissoold that it has a flash intro."
-    url: http://www.twitter.com/danramteke/status/31249085021294594
-
-  - text: "#mywebsiteissoold that you retweeted the link."
-    url: http://www.twitter.com/danramteke/status/31248969384329216
 
   - text: "#mywebsiteissoold that it has my web log on it. With five of your comments."
     url: http://www.twitter.com/danramteke/status/31248864807751680
@@ -56,10 +56,10 @@ tweets:
   - text: "#mywebsiteissoold that A List Apart used it in an example."
     url: http://www.twitter.com/danramteke/status/31247553706074114
 
-  - text: "#mywebsiteissoold that you heard about it on google autosuggest."
+  - text: "#mywebsiteissoold that it was the third suggestion on Google's autosuggest."
     url: http://www.twitter.com/danramteke/status/31247150100783104
 
-  - text: "#mywebsiteissoold it's optimized fir Android."
+  - text: "#mywebsiteissoold it's optimized for Android."
     url: http://www.twitter.com/danramteke/status/31246818876592128
 
   - text: "#mywebsiteissoold it has ads on it."
@@ -92,7 +92,7 @@ tweets:
   - text: "#mywebsiteissoold that it pays the bills from all the Google adwords dollars."
     url: http://www.twitter.com/danramteke/status/31244938855321600
 
-  - text: "#mywebsiteissoold that it was the top hit on Lycos. And Altavista."
+  - text: "#mywebsiteissoold that it was the top hit on Lycos."
     url: http://www.twitter.com/danramteke/status/31244679794139136
 
   - text: "#mywebsiteissoold that it had the default grey background in NCSA Mosiac."

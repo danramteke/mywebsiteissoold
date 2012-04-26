@@ -29,6 +29,7 @@ li {
   background-color: #ffffff;
   padding: 9px;
   border: 9px #dddddd solid;
+  font-size: 1.5em;
 }
 
 a{
